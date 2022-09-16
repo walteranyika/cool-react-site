@@ -1,6 +1,7 @@
 import React from "react";
 import home1 from"../img/home1.png";
-import styled from "styled-components";
+import {About, Description, Hide, Image} from "../styles";
+// import styled from "styled-components";
 
 const AboutSection=()=>{
   return(<About>
@@ -26,7 +27,7 @@ const AboutSection=()=>{
 }
 
 //Styled component
-const About = styled.div`
+/*const About = styled.div`
   min-height: 90vh;
   display: flex;
   align-items: center;
@@ -54,6 +55,6 @@ const Image = styled.div`
 `
 const Hide = styled.div`
   overflow: hidden;
-`
+`*/
 
 export default AboutSection;
