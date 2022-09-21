@@ -21,17 +21,16 @@ button{
     background: transparent;
     color: white;
     transition: all 0.5s ease;
-     font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     &:hover{
          background: #23d997;
          color: white;
-    }
-    
+    }  
 }
 
 h2{
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 h3{
     color: white;
